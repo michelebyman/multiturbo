@@ -44,6 +44,38 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
         holder.button.text = (colnumber*rownumber).toString()
 
         holder.button.setBackgroundColor(Color.CYAN)
+        if(rownumber <= 10 && colnumber <= 10)
+        {
+            holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[9]))
+        }
+
+        if(rownumber <= 9 && colnumber <= 9)
+        {
+            holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[8]))
+        }
+        if(rownumber <= 8 && colnumber <= 8)
+        {
+            holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[7]))
+        }
+        if(rownumber <= 7 && colnumber <= 7)
+        {
+            holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[6]))
+        }
+
+        if(rownumber <= 6 && colnumber <= 6)
+        {
+            holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[5]))
+        }
+
+        if(rownumber <= 5 && colnumber <= 5)
+        {
+            holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[4]))
+        }
+
+        if(rownumber <= 4 && colnumber <= 4)
+        {
+            holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[3]))
+        }
 
         if(rownumber <= 3 && colnumber <= 3)
         {
@@ -62,6 +94,7 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
         {
             holder.button.text = (colnumber).toString()
             holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[colnumber-1]))
+            holder.button.
         }
 
 
