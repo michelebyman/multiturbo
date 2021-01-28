@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="one">#F183AE</color>
+    <color name="two">#DC89A6</color>
+    <color name="three">#CA8DC1</color>
+    <color name="four">#AE90C6</color>
+    <color name="five">#98A4D0</color>
+    <color name="six">#88C1E7</color>
+    <color name="seven">#87CEC5</color>
+    <color name="eight">#ABCA91</color>
+    <color name="nine">#DCD490</color>
+    <color name="ten">#E79F8D</color>
+
+    <array name="rainbow">
+        <item>@color/one</item>
+        <item>@color/two</item>
+        <item>@color/three</item>
+        <item>@color/four</item>
+        <item>@color/five</item>
+        <item>@color/six</item>
+        <item>@color/seven</item>
+        <item>@color/eight</item>
+        <item>@color/nine</item>
+        <item>@color/ten</item>
+    </array>
+
+</resources>
