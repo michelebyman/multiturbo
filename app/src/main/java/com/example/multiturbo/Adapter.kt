@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 
 class Adapter() : RecyclerView.Adapter<ViewHolder>() {
 
+
+
     var multy = mutableListOf<String>()
     var lastRowButtonColors = mutableListOf<String>("#F183AE", "#DC89A6", "#CA8DC1", "#AE90C6", "#98A4D0", "#88C1E7", "#87CEC5", "#ABCA91", "#DCD490", "#E79F8D")
 
@@ -35,15 +37,24 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
         */
     }
 
+  
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
 
         val colnumber = (position/11)+1
         val rownumber = 10-(position%11)
 
-        holder.button.text = (colnumber*rownumber).toString()
+
+        holder.button.text = ("$rownumber *  $colnumber").toString()
 
         holder.button.setBackgroundColor(Color.CYAN)
+
+        holder.button.setOnClickListener {
+            holder.button.text = (rownumber *  colnumber).toString()
+
+        }
+
+
         if(rownumber <= 10 && colnumber <= 10)
         {
             holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[9]))
@@ -94,7 +105,26 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
         {
             holder.button.text = (colnumber).toString()
             holder.button.setBackgroundColor(Color.parseColor(lastRowButtonColors[colnumber-1]))
-            holder.button.
+
+
+            if(colnumber == 1)
+            {
+                holder.button.setBackgroundColor(Color.BLACK)
+            }
+            if(colnumber == 10)
+            {
+                holder.button.setBackgroundColor(Color.MAGENTA)
+            }
+
+        }
+        if(rownumber == 10 && (colnumber == 1))
+        {
+            holder.button.setBackgroundColor(Color.GRAY)
+        }
+
+        if(rownumber == 10 && (colnumber == 10))
+        {
+            holder.button.setBackgroundColor(Color.RED)
         }
 
 
@@ -103,7 +133,9 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
 }
 
 class ViewHolder (view: View) : RecyclerView.ViewHolder(view) {
+
 var button = view.findViewById<Button>(R.id.buttonNumbers)
+
 
 
 }
