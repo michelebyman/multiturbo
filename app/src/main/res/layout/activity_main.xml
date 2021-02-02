@@ -157,13 +157,13 @@
             android:id="@+id/button63"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:layout_marginBottom="1dp"
+            android:layout_marginBottom="0dp"
             android:insetTop="0dp"
             android:insetBottom="0dp"
-            android:text="X"
             android:textSize="17dp"
-            app:backgroundTint="#F183AE"
-            app:cornerRadius="14dp" />
+            app:backgroundTint="@android:color/transparent"
+            app:cornerRadius="14dp"
+            app:iconPadding="0dp" />
 
     </LinearLayout>
 
