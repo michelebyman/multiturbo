@@ -17,6 +17,7 @@
     <color name="eight">#ABCA91</color>
     <color name="nine">#DCD490</color>
     <color name="ten">#E79F8D</color>
+    <color name="background_black_scale">#2f2f2f</color>
 
     <array name="rainbow">
         <item>@color/one</item>
@@ -29,6 +30,7 @@
         <item>@color/eight</item>
         <item>@color/nine</item>
         <item>@color/ten</item>
+
     </array>
 
 </resources>

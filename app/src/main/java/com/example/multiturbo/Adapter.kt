@@ -50,7 +50,8 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
         val colnumber = (position/11)+1
         val rownumber = 10-(position%11)
 
-        holder.button.text = ("$rownumber *  $colnumber").toString()
+        holder.button.text = ("$rownumber x $colnumber").toString()
+        holder.button.setPadding(0, 0,0,0)
 
 
 
@@ -75,7 +76,9 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
         }
 
 
-        var itemColor = lastRowButtonColors[9]
+        var itemColor = lastRowButtonColors[5]
+
+
 
         if(rownumber <= 10 && colnumber <= 10)
         {
@@ -186,6 +189,36 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
             }
 
            */
+            if (colnumber == 1){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[0]))
+            }
+            if (colnumber == 2){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[1]))
+            }
+            if (colnumber == 3){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[2]))
+            }
+            if (colnumber == 4){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[3]))
+            }
+            if (colnumber == 5){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[4]))
+            }
+            if (colnumber == 6){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[5]))
+            }
+            if (colnumber == 7){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[6]))
+            }
+            if (colnumber == 8){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[7]))
+            }
+            if (colnumber == 9){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[8]))
+            }
+            if (colnumber == 10){
+                holder.button.setTextColor(Color.parseColor(lastRowButtonColors[9]))
+            }
 
 
 

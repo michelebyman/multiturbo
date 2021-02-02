@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2F2F2F"
+
     tools:context=".MainActivity">
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/buttonGrid"
@@ -35,128 +37,153 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
+            android:foregroundGravity="bottom"
             android:insetTop="0dp"
             android:insetBottom="0dp"
+            android:padding="0dp"
             android:text="10"
-            android:textSize="17dp"
-            app:backgroundTint="#E79F8D"
-            app:cornerRadius="14dp" />
+            android:textColor="@color/ten"
+            android:textSize="26dp"
+            app:backgroundTint="#2f2f2f"
+            app:cornerRadius="14dp"
+            app:iconPadding="0dp" />
 
         <Button
             android:id="@+id/button40"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
+            android:padding="0dp"
             android:text="9"
+            android:textColor="@color/nine"
             android:textSize="26dp"
-            app:backgroundTint="#DCD490"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button41"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="8"
+            android:textColor="@color/eight"
             android:textSize="26dp"
-            app:backgroundTint="#ABCA91"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button42"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="7"
+            android:textColor="@color/seven"
             android:textSize="26dp"
-            app:backgroundTint="#87CEC5"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button43"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="6"
+            android:textColor="@color/six"
             android:textSize="26dp"
-            app:backgroundTint="#88C1E7"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button44"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="5"
+            android:textColor="@color/five"
             android:textSize="26dp"
-            app:backgroundTint="#98A4D0"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button45"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="4"
+            android:textColor="@color/four"
             android:textSize="26dp"
-            app:backgroundTint="#AE90C6"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button46"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="3"
+            android:textColor="@color/three"
             android:textSize="26dp"
-            app:backgroundTint="#CA8DC1"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button47"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="2"
+            android:textColor="@color/two"
             android:textSize="26dp"
-            app:backgroundTint="#DC89A6"
+            app:backgroundTint=" #2f2f2f"
             app:cornerRadius="14dp" />
 
         <Button
             android:id="@+id/button48"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="1dp"
+            android:clickable="false"
             android:insetTop="0dp"
             android:insetBottom="0dp"
             android:text="1"
+            android:textColor="#F183AE"
             android:textSize="26dp"
-            app:backgroundTint="#F183AE"
+            app:backgroundTint="#2f2f2f"
             app:cornerRadius="14dp" />
+
 
         <Button
             android:id="@+id/button63"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="66dp"
             android:layout_marginBottom="0dp"
             android:insetTop="0dp"
             android:insetBottom="0dp"
