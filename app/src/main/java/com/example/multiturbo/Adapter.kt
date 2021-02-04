@@ -52,6 +52,7 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
 
         holder.button.text = ("$rownumber x $colnumber").toString()
         holder.button.setPadding(0, 0,0,0)
+        holder.button.setTextColor(Color.parseColor("#ffffff"))
 
 
 
