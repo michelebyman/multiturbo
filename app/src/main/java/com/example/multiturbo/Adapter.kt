@@ -182,7 +182,7 @@ class Adapter() : RecyclerView.Adapter<ViewHolder>() {
 
             holder.button.setBackgroundColor(Color.TRANSPARENT)
             holder.button.isEnabled = false
-            holder.button.textSize = 30f
+            holder.button.textSize = 26f
           /* for (item in 1..10){
                 if (colnumber == item){
                     holder.button.setTextColor(Color.parseColor(lastRowButtonColors[item]))
