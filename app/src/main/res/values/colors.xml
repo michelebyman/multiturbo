@@ -18,6 +18,7 @@
     <color name="nine">#DCD490</color>
     <color name="ten">#E79F8D</color>
     <color name="background_black_scale">#2f2f2f</color>
+    <color name="transparent">#00000000</color>
 
     <array name="rainbow">
         <item>@color/one</item>
